@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(flowers1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+nav{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    background-image: linear-gradient(#fefefe, #e2e4e0);
+    border-radius: 7px;
+    border-top: 5px solid pink;
+}
+ul{
+   width: 100%;
+    height: 50px;
+    text-align: center;
+    border-radius: 7px;   
+}
+li{
+  width: 120px;
+    height: 49px;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    border-radius: 7px;
+}
+li:hover{
+    background-image: linear-gradient(pink, purple);
+}
+.antras{
+    background-image: linear-gradient(pink, purple);
+    color: white;
+}
+a{
+    width: 120px;
+    height: 49px;
+    display: block;
+    text-decoration: none;
+    padding-top: 18px;
+    color: purple;
+}
+a:hover{
+    color: white;
+}
+.antras a{
+    color: white;
+}
+h1{outline: 2px solid blue;
+    width: 250px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    padding: 10px;
+    background-image: linear-gradient(purple,pink, purple);
+    mix-blend-mode: screen;
+    text-shadow: 2px 2px white;
+    border-radius: 7px;
+}
+/*font-family: 'Nunito', sans-serif;*/
+.foto{
+    width: 100%;
+    height: 500px;
+    background-image: radial-gradient(pink,purple);
+    padding: 20px;
+    position: relative;
+}
+.foto div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+.foto1{
+    background-image: url(flower-2197679_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.foto2{
+    background-image: url(cherry2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+.foto3{
+    background-image: url(flower-729512_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.foto4{
+    background-image: url(flower-729514_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+.foto5{
+    background-image: url(tulips.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 80%;
+}
+.foto6{
+    background-image: url(flowers1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+.foto7{
+    background-image: url(garden-19830_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+.foto8{
+    background-image: url(himilayan-blue-poppy-4202825_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+}
+.foto9{
+    background-image: url(lapai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+}
+.foto10{
+    background-image: url(leaf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
